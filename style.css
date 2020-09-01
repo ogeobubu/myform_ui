@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    max-width: 960px;
+    margin: auto;
+}
+
+.container {
+    background: white;
+    padding: 38px 38px 40px;
+    color: black;
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* Logo */
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Header */
+
+#main_header {
+    text-align: center;
+    font: 20px sans-sarif;
+}
+
+h1 {
+    color: #083e9e;
+}
+
+p {
+    color: #4a5568;
+    font-size: 17px;
+}
+
+/* MyForm */
+
+.myForm {
+    margin-top: 10px;
+}
+
+label {
+    color: #4a5568;
+    font: 15px san-sarif;
+}
+
+.textbox input {
+    background: #edf2f7;
+    padding: 12px 8px 12px 12px;
+    width: 100%;
+}
+
+.name{
+    padding: 12px 8px 12px 12px;
+}
+
+.e-mail {
+    padding: 12px 8px 12px 12px;
+}
+
+.number {
+    padding: 12px 8px 12px 12px;
+}
+
+.pass {
+    padding: 12px 8px 12px 12px;
+}
+
+.optional {
+    padding: 12px 8px 12px 12px;
+}
+
+select {
+    background: #edf2f7;
+    padding: 12px 8px 12px 12px;
+    width: 100%;
+}
+
+.myForm #create {
+    display: block;
+    font: 14px sans-serif;
+    text-align: center;
+    background: #083e9e;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px 40px 12px;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font: 12px Karl, sans-serif;
+    margin: 32px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    padding: 16px;
+    margin-top: 4px;
+    color: #ffffff;
+}
